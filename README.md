@@ -11,7 +11,10 @@ cordova plugin add org.apache.cordova.camera
 ionic platform add ios
 ```
 
-# Issues
+## Issues
+
+**NOTE** : Most of these memory issues were not occurring in Cordova 3.7.0.  The black viewfinder issues were specific to iOS 8 on some iPhone 5S's.  Now, they appear on iPhone 4S, iPod Touch, and iPhone 5S (ios 7 & 8).
+
 - iOS 7 : Camera opens with black viewfinder.  Image capture DOES work though
 - iOS 8 : Camera works properly first time. Subsequent camera instances open with black viewfinder.  Image capture does work
 - In other apps with larger memory footprint, opening camera frequently results in issues described here:
