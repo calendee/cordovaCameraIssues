@@ -4,8 +4,8 @@ Sample app demonstrating issues with Cordova Camera plugin
 ## Instructions
 
 ```sh
-ionic start cameraIssue https://github.com/calendee/cordovaCameraIssues
-cd cameraIssue
+ionic start cordovaCameraIssues https://github.com/calendee/cordovaCameraIssues
+cd cordovaCameraIssues
 bower install ngCordova
 cordova plugin add org.apache.cordova.camera
 ionic platform add ios
