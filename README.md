@@ -9,6 +9,7 @@ cd cameraIssue
 bower install ngCordova
 cordova plugin add org.apache.cordova.camera
 ionic platform add ios
+# Now, Run on device via `ionic run ios` or run from Xcode
 ```
 
 ## Issues
