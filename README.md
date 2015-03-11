@@ -30,3 +30,5 @@ Please open a ticket and provide the following information:
 
 - Cordova CLI version  ( `cordova --version`)
 - iOS Device Type and Version ( iPhone 5S 7.1.2, etc)
+- Any error output from Xcode, command line
+- Results of 3 or more attempts to capture an image (Works fine once, works fine always, Black viewfinder all the time, got error XXXXX) - the more detail the better
