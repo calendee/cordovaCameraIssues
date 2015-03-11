@@ -22,3 +22,11 @@ ionic platform add ios
  - https://issues.apache.org/jira/browse/CB-8542
  - https://issues.apache.org/jira/browse/CB-7641
  - Terminated Due to Memory Pressure
+
+## Feedback
+
+Please provide feedback on how this sample runs for you on any/all devices you have access to.
+Please open a ticket and provide the following information:
+
+- Cordova CLI version  ( `cordova --version`)
+- iOS Device Type and Version ( iPhone 5S 7.1.2, etc)
