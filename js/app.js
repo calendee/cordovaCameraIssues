@@ -23,7 +23,15 @@ angular.module('starter', ['ionic', 'ngCordova'])
   console.log("Camera Controller!");
   
   $scope.data = {
-    image : null
+    image : null,
+    memoryHog : []
+  };
+
+  // Put about 40M of junk in memory
+  var counter = 0;
+  while(counter < 200000) {
+    $scope.data.memoryHog[counter] = '01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101';
+    counter++;
   }
 
   $scope.takePic = function() {
