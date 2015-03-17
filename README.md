@@ -34,7 +34,14 @@ Sample app demonstrating issues with Cordova Camera plugin
 - iPhone 4S, iOS 7.1.2:
  - Successfully takes photos repeatedly
  - No black image viewer
- - Occassional "Received memory warning" messages.  However, most photos do not cause error - unlike with iPhone 5S (iOS 8.1)	
+ - Occassional "Received memory warning" messages.  However, most photos do not cause error - unlike with iPhone 5S (iOS 8.1)
+- iPhone 4S, iOS 6.1.3:
+ - Successfully takes photos repeatedly
+ - No black image viewer
+ - No memory warnings
+ - No snapshotting warnings
+ - iOS 6.1.3 Rocks!
+
 
 
 ## Bounty
