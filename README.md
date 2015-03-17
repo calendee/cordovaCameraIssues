@@ -42,6 +42,11 @@ Sample app demonstrating issues with Cordova Camera plugin
  - No snapshotting warnings
  - iOS 6.1.3 Rocks!
 
+#### "Very" Heavy App (About 75MB per Xcode)
+- iPod Touch(5th Gen), iOS 7.1.2:
+ - Image viewer black
+ - Taking picture crashes app with Xcode reporting : "The app ... quit unexpectedly. Message from debugger : Terminated due to Memory Pressure"
+
 
 
 ## Bounty
