@@ -44,8 +44,8 @@ Sample app demonstrating issues with Cordova Camera plugin
 
 #### "Very" Heavy App (About 75MB per Xcode)
 - iPod Touch(5th Gen), iOS 7.1.2:
- - Image viewer black
- - Taking picture crashes app with Xcode reporting : "The app ... quit unexpectedly. Message from debugger : Terminated due to Memory Pressure"
+ - Image viewer black and then taking picture crashes app with Xcode reporting : "The app ... quit unexpectedly. Message from debugger : Terminated due to Memory Pressure"
+ - In some cases, even LOADING the camera crashes the app before a picture is ever taken
 
 
 
