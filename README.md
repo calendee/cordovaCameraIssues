@@ -1,6 +1,42 @@
 # cordovaCameraIssues
 Sample app demonstrating issues with Cordova Camera plugin
 
+## Bounty Update
+@calendee @eddyverbruggen and mentioned the newly released Cordova Camera plugin v0.3.6. I've used this via a commit before the official release.  This helps significantly over the v0.3.5 version. However, there are still issues with my test devices.
+
+### 0.3.6 Overview
+
+#### Base App (light memory load)
+- iPod Touch(5th Gen), iOS 7.1.2:
+ - Successfully takes photos repeatedly
+ - No black image viewer
+ - No "Received memory warning" messages
+- iPhone 5S, iOS 8.2
+ - Takes photos successfully
+ - Image viewer is black for every other photo.  First is good, Second is black, Third is good, ....
+ - No "Received memory warning" messages
+- iPhone 4S, iOS 7.1.2:
+ - Successfully takes photos repeatedly
+ - No black image viewer
+ - No "Received memory warning" messages
+
+#### Heavy App (higher memory load)
+- iPod Touch(5th Gen), iOS 7.1.2:
+ - Black image viewer initially. Image viewer works properly after about 10 seconds.
+ - Receive "Received memory warning." message twice before photo is taken.
+ - Can successfully take first picture.
+ - Taking second picture crashes app with Xcode reporting : "The app ... quit unexpectedly. Message from debugger : Terminated due to Memory Pressure"
+- iPhone 5S, iOS 8.2
+ - Takes photos successfully
+ - Image viewer is black for every other photo.  First is good, Second is black, Third is good, ....
+ - No "Received memory warning" messages
+ - Receive "Snapshotting a view that has not been rendered results in an empty snapshot. Ensure your view has been rendered at least once before snapshotting or snapshot after screen updates." for every photo.
+- iPhone 4S, iOS 7.1.2:
+ - Successfully takes photos repeatedly
+ - No black image viewer
+ - Occassional "Received memory warning" messages.  However, most photos do not cause error - unlike with iPhone 5S (iOS 8.1)	
+
+
 ## Bounty
 I'm offering $250 to the first person to solve my issues with the Cordova Camera plugin.  The fix must work in my real app as well as the sample app in this repo. It must solve both of the Bounty Issues described below. It must work in apps using Cordova 3.8.0 using the Camera plugin (forked if necessary).
 
