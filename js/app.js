@@ -21,12 +21,21 @@ angular.module('starter', ['ionic', 'ngCordova'])
 .controller("CameraController", function($scope, $cordovaCamera) {
 
   console.log("Camera Controller!");
-  
+
   $scope.data = {
-    image : null
-  }
+    image : null,
+    memoryHog : []
+  };
 
   $scope.takePic = function() {
+
+    console.log("Loading crap..");
+
+    var counter = 0;
+    while(counter < 40000000) {
+      $scope.data.memoryHog[counter] = '01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101';
+      counter++;
+    }
 
     console.log("Taking pic!");
     var options = {
