@@ -4,6 +4,7 @@ Sample app demonstrating issues with Cordova Camera plugin
 ## Bounty Update
 @calendee @eddyverbruggen and mentioned the newly released Cordova Camera plugin v0.3.6. I've used this via a commit before the official release.  This helps significantly over the v0.3.5 version. However, there are still issues with my test devices.
 
+
 ### 0.3.6 Overview
 
 #### Base App (light memory load)
@@ -50,6 +51,9 @@ Sample app demonstrating issues with Cordova Camera plugin
 
 
 ## Bounty
+
+UPDATE: 2015-12-22 : I'm closing this bounty.  I haven't received any satisfactory responses since it was posted.  In addition, I'm no longer experiencing this issue on the newest releases of Cordova/Camera plugin.
+
 I'm offering $250 to the first person to solve my issues with the Cordova Camera plugin.  The fix must work in my real app as well as the sample app in this repo. It must solve both of the Bounty Issues described below. It must work in apps using Cordova 3.8.0 using the Camera plugin (forked if necessary).
 
 I will be the sole judge of the "fix".  Whomever provides an update Camera plugin link that I can build with and test against and confirm all works properly will be the winner.
